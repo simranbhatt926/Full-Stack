@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 >Hey</h1>
+    <!-- <button id="click" onclick="hello()" >How are you ?</button> -->
+    <!-- <button id="click" onclick="hello()" >Time</button>
+     -->
+     <button id="click" onmouseover="hii()" onmouseout="hello()">Time</button>
+    
+    <script>
+        function hello(){
+       document.getElementById("click").innerHTML="Time";
+        }
+        function hii() {
+            document.getElementById("click").innerHTML=Date();
+        }
+       </script>
+</body>
+</html>

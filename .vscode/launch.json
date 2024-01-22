@@ -1,0 +1,106 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "poly",
+            "request": "launch",
+            "mainClass": "oops.poly",
+            "projectName": "Full Stack_5de880f0"
+        },
+        {
+            "type": "java",
+            "name": "angrs",
+            "request": "launch",
+            "mainClass": "angrs",
+            "projectName": "Full Stack_5de880f0"
+        },
+        {
+            "type": "java",
+            "name": "reverse",
+            "request": "launch",
+            "mainClass": "reverse",
+            "projectName": "Full Stack_5de880f0"
+        },
+        {
+            "type": "java",
+            "name": "sum",
+            "request": "launch",
+            "mainClass": "sum",
+            "projectName": "Full Stack_5de880f0"
+        },
+        {
+            "type": "java",
+            "name": "fibonacci",
+            "request": "launch",
+            "mainClass": "fibonacci",
+            "projectName": "Full Stack_5de880f0"
+        },
+        {
+            "type": "java",
+            "name": "table",
+            "request": "launch",
+            "mainClass": "table",
+            "projectName": "Full Stack_5de880f0"
+        },
+        {
+            "type": "java",
+            "name": "heart",
+            "request": "launch",
+            "mainClass": "heart",
+            "projectName": "Full Stack_5de880f0"
+        },
+        {
+            "type": "java",
+            "name": "number",
+            "request": "launch",
+            "mainClass": "number",
+            "projectName": "Full Stack_5de880f0"
+        },
+        {
+            "type": "java",
+            "name": "peramiter",
+            "request": "launch",
+            "mainClass": "peramiter",
+            "projectName": "Full Stack_5de880f0"
+        },
+        {
+            "type": "java",
+            "name": "besic",
+            "request": "launch",
+            "mainClass": "besic",
+            "projectName": "Full Stack_5de880f0"
+        },
+        {
+            "type": "java",
+            "name": "sim",
+            "request": "launch",
+            "mainClass": "sim",
+            "projectName": "Full Stack_5de880f0"
+        },
+        {
+            "type": "java",
+            "name": "simran",
+            "request": "launch",
+            "mainClass": "simran",
+            "projectName": "Full Stack_5de880f0"
+        },
+        {
+            "type": "java",
+            "name": "besic",
+            "request": "launch",
+            "mainClass": "java.besic",
+            "projectName": "Full Stack_5de880f0"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

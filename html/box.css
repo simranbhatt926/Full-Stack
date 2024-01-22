@@ -1,0 +1,29 @@
+ .Animal{
+    color: brown;
+background-color: orchid;
+height: 1000px;
+width: 5000px; 
+
+}
+.animal1{
+background-color: aquamarine;
+color: blueviolet;
+position: fixed;
+top: 0px;
+}
+.animal2{
+background-color: blueviolet;
+color: aquamarine;
+height: 50px;
+width: 60px;
+/* position: relative; */
+/* position: fixed; */
+}
+.animal3{
+background-color: chocolate;
+color: blue;
+position: sticky;
+top: 0;
+
+
+}

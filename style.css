@@ -1,0 +1,70 @@
+/* Resetting default styles */
+/* body, ul {
+    margin: 0;
+    padding: 0;
+  }
+   */
+  /* Header styles */
+  header {
+    background-color: #333; /* Change color as needed */
+    color: #fff; /* Change text color as needed */
+    /* padding: 10px 0; */
+  }
+  
+  /* Navigation styles */
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff; /* Link text color */
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555; /* Change hover color as desired */
+  }
+  /* Bio section styles */
+.bio {
+    text-align: center;
+    /* padding: 50px 0; */
+  }
+  
+  /* .bio-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+   */
+  .bio-image {
+    width: 200px; /* Adjust image size */
+    border-radius: 50; /* Rounded image, adjust as needed */
+    margin-bottom: 20px;
+  }
+  /* Responsive Map */
+.map-responsive {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-top: 75%; /* Adjust this value for aspect ratio */
+  }
+  
+  .map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25;
+    height: 150;
+  }
+  
+
+  
+  p{
+    background-color: aquamarine;
+  }
+  

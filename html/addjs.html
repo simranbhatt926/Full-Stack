@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Calculator</title>
+</head>
+<body>
+ Enter a number 1:  <input type="text" id="num1" placeholder="Number 1">
+ Enter a number 2: <input type="text" id="num2" placeholder="Number 2">
+  <select id="operation">
+    <option value="add">Addition</option>
+    <option value="subtract">Subtraction</option>
+    <option value="multiply">Multiplication</option>
+    <option value="divide">Division</option>
+  </select>
+  <button onclick="calculate()">Calculate</button>
+  <p id="result">Result: 
+  <input type="text" id="result" placeholder=" Result">
+</p>
+
+  <script>
+    function calculate() {
+      var number1 = parseFloat(document.getElementById('num1').value);
+      var number2 = parseFloat(document.getElementById('num2').value);
+      var operation = document.getElementById('operation').value;
+
+      var operations = {
+        'add': function(a, b) { return a + b; },
+        'subtract': function(a, b) { return a - b; },
+        'multiply': function(a, b) { return a * b; },
+        'divide': function(a, b) { return a / b; }
+      };
+
+      var result = operations[operation](number1, number2);
+
+      document.getElementById('result').innerHTML = "Result: " + result;
+    }
+  </script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    number1 <input type="text" id="text1" placeholder="Number 1">
+    <br>
+    number2 <input type="text" id="text2" placeholder="Number 2">
+    <br>
+<select  id="operation">
+    <option value="add">Addition</option>
+    <option value="subtract">Subtraction</option>
+    <option value="multiply">Multiplication</option>
+    <option value="divide">Division</option>
+</select>
+
+  <button onclick="calculate()">Calculate</button>
+  <br>
+  Result <input type="text" id="Result">
+
+  <script>
+    function calculate() {
+        let number1=document.getElementById("text1").value;
+        let number2 =  document.getElementById("text2").value;
+     let operation = document.getElementById('operation').value;
+
+      let operations = {
+        'add': function(a, b) { return a + b; },
+        'subtract': function(a, b) { return a - b; },
+        'multiply': function(a, b) { return a * b; },
+        'divide': function(a, b) { return a / b; }
+      };
+
+     let result = operations[operation](number1, number2);
+
+      document.getElementById('result').innerHTML = "Result: " + result;
+    }
+    </script>
+</body>
+</html> -->

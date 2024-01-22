@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    number1 <input type="text" id="text1">
+    <br>
+    number2 <input type="text" id="text2">
+    <br>
+    <button onclick="add()">+</button><br>
+    <button onclick="module()">%</button><br>
+    <button onclick="sub()">-</button><br>
+    <button onclick="multi() ">*</button><br>
+    <button onclick="div()">/</button><br>
+    Result <input type="text" id="Result">
+    <script>
+   function add(){
+   let A=document.getElementById("text1").value;
+   let B =  document.getElementById("text2").value;
+   let C=Number(A)+Number(B);
+   document.getElementById("Result").value=C;
+    }
+    function sub(){
+   let A=document.getElementById("text1").value;
+   let B =  document.getElementById("text2").value;
+   let C=Number(A)-Number(B);
+   document.getElementById("Result").value=C;
+    }
+    function module(){
+   let A=document.getElementById("text1").value;
+   let B =  document.getElementById("text2").value;
+   let C=Number(A)%Number(B);
+   document.getElementById("Result").value=C;
+    }
+    function multi(){
+   let A=document.getElementById("text1").value;
+   let B =  document.getElementById("text2").value;
+   let C=Number(A)*Number(B);
+   document.getElementById("Result").value=C;
+    }
+    function div(){
+   let A=document.getElementById("text1").value;
+   let B =  document.getElementById("text2").value;
+   let C=Number(A)/Number(B);
+   document.getElementById("Result").value=C;
+    }
+   </script>
+</body>
+</html>
